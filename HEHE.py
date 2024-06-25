@@ -4,11 +4,9 @@ cols = int(input("Enter the number of columns: "))
 cols = 4  
 
 i = 0
-
 while i < rows:
     
     j = 0
-    
     while j < cols:
         if j == 0 or j == cols - 1:  
             print("* ", end=" ")
